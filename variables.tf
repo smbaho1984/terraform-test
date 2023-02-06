@@ -1,5 +1,5 @@
 variable "ami_id" {
-    default = "ami-08e2d37b6a0129927"
+    default = "ami-00149760ce42c967b"
 }
 
 variable "instance_type" {
@@ -7,5 +7,5 @@ variable "instance_type" {
 }
 
 variable "sg_id" {
-    default = "sg-08c5d7076572d3d26"
+    default = "sg-84c4daec"
 }
