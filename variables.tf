@@ -1,5 +1,5 @@
 variable "ami_id" {
-    default = "ami-0c2ab3b8efb09f272"
+    default = "ami-05bfbece1ed5beb54"
     type = string
 }
 
