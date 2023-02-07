@@ -1,11 +1,14 @@
 variable "ami_id" {
-    default = "ami-00149760ce42c967b"
+    default = "ami-0c2ab3b8efb09f272"
+    type = string
 }
 
-variable "instance_type" {
-    default = "t2.micro"
-}
+ variable "instance_type" {
+    default = "t3.xlarge"
+    type = string
+ }
 
-variable "sg_id" {
-    default = "sg-84c4daec"
-}
+ variable "ec2_name_tag" {
+    default = "app-server"
+    type = string
+ }
