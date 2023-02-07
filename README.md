@@ -1,1 +1,2 @@
-# create an EC2 instance
+# create an EC2 instance=Cost
+
